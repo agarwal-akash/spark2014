@@ -70,9 +70,7 @@ all-nightly: gnat2why-nightly gnatprove-nightly install install-examples
 
 setup:
 	cd why3 && ./configure --prefix=$(INSTALLDIR) \
-		--enable-relocation \
-		--enable-coq-tactic=no \
-		--disable-menhirLib
+		--enable-relocation
 
 why3:
 	$(MAKE) -C why3
