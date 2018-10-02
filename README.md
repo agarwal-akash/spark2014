@@ -79,7 +79,7 @@ git submodule init
 git submodule update
 ```
 
-Then follow the instructions in the Makefile ```https://github.com/agarwal-akash/spark2014/blob/master/Makefile```
+Then follow the instructions in the Makefile (https://github.com/AdaCore/spark2014/blob/master/Makefile)
 
 ## 6.2 Building SPARK with GNAT FSF
 
@@ -99,4 +99,4 @@ git submodule init
 git submodule update
 ```
 
-Then follow the instructions in the Makefile ```https://github.com/agarwal-akash/spark2014/blob/master/Makefile```
+Then follow the instructions in the Makefile (https://github.com/AdaCore/spark2014/blob/master/Makefile)
