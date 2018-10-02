@@ -5,9 +5,9 @@
 This repository contains the source code for the SPARK 2014 project. SPARK
 is a software development technology specifically designed for engineering
 high-reliability applications. It consists of a programming language,
-a verification toolset and a design method which, taken together, ensure
+a verification toolset and a design method which, taken together, ensures
 that ultra-low defect software can be deployed in application domains where
-high-reliability must be assured, for example where safety and security are
+high-reliability must be assured and where safety and security are
 key requirements.
 
 This repository provides visibility on the development process. The main line
@@ -45,7 +45,7 @@ and instructions on how to use the tool, together with a tutorial, in the
 
 # 6. Building SPARK
 
-In order to build SPARK, you need to install first the following dependencies
+In order to build SPARK, you need to first install the following dependencies
 (and we recommend using the OPAM package manager for these):
 
 * ocaml compiler
@@ -69,9 +69,9 @@ the branch gpl-2018, as follows:
 git checkout gpl-2018
 ```
 
-SPARK repository uses submodules to keep in synch with corresponding versions
+SPARK repository uses submodules to keep in sync with corresponding versions
 of Why3, Alt-Ergo, CVC4 and Z3, which generally track the main repositories for
-these tools, with minor modifications for the integration with SPARK. To
+these tools with minor modifications for the integration with SPARK. To
 retrieve the corresponding branch of these submodules, do:
 
 ```
@@ -79,7 +79,7 @@ git submodule init
 git submodule update
 ```
 
-Then follow the instructions in the Makefile.
+Then follow the instructions in the Makefile ```https://github.com/agarwal-akash/spark2014/blob/master/Makefile```
 
 ## 6.2 Building SPARK with GNAT FSF
 
@@ -99,4 +99,4 @@ git submodule init
 git submodule update
 ```
 
-Then follow the instructions in the Makefile.
+Then follow the instructions in the Makefile ```https://github.com/agarwal-akash/spark2014/blob/master/Makefile```
